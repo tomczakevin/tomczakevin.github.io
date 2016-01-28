@@ -1,0 +1,52 @@
+body{
+  background-color: #f0edd9;
+}
+/* HAUT DE PAGE RESPONSSIVE*/
+.col-lg-4 {
+  margin-top: 5%;
+}
+.flechebas {
+  margin-top: 7%;
+}
+.border {
+  margin: 0;
+  padding-top: 1%;
+}
+.banane {
+  padding-top: 9%;
+}
+.grostitre {
+  margin-top: 10%;
+  margin-left: 20%;
+}
+/* FIN HAUT DE PAGE RESPONSSIVE*/
+/* bandeau */
+.bandeau-formation{
+  margin-top: 5%;
+}
+.bandeau-competence{
+  margin-top: 5%;
+}
+/* fin bandeau */
+/* texte */
+.texte h6{
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  margin-top: 10%;
+}
+.texte  p{
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #2cb3b4;
+}
+/* fin texte */
+
+/* imgcompétences */
+.pastille {
+  margin-top: 5%;
+  text-align: center;
+}
+/* fin imgcompétences */

@@ -1,0 +1,168 @@
+body{
+  background-color: #f0edd9;
+}
+/* HAUT DE PAGE RESPONSSIVE*/
+.col-lg-4 {
+  margin-top: 5%;
+}
+.flechebas {
+  margin-top: 7%;
+}
+.photop {
+  margin-top: 7%;
+}
+.border {
+  margin: 0;
+  padding-top: 1%;
+}
+.banane {
+  padding-top: 9%;
+}
+.grostitre {
+  margin-top: 10%;
+  margin-left: 29%;
+}
+/* FIN HAUT DE PAGE RESPONSSIVE*/
+/* ANIMATION ZOOM FLÉCHE BLEU*/
+.article_big_img {
+  padding-left: 20%;
+}
+.flecheaction{
+  padding-left: 20%;
+  border: 1px solid black;
+}
+.flecheaction:hover > .article_big_img > img {
+  transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+}
+.flecheaction {
+  height: auto;
+  float: left;
+  margin-bottom: 1.65em;
+  margin-left: 46%;
+  margin-top: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+}
+.article_big_img {
+  width: 100px;
+  height: 60px;
+  overflow: hidden;
+  padding: 2px;
+}
+.article_big_img > img {
+  width:100px;
+  height: 60px;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+}
+.flecheaction:hover > .article_big_img > img {
+  transform: scale(1.10);
+  -ms-transform: scale(1.10);
+  -webkit-transform: scale(1.10);
+  -o-transform: scale(1.10);
+  -moz-transform: scale(1.10);
+}
+/*  FIN ANIMATION ZOOM FLÉCHE BLEU*/
+
+
+/*  formulaire*/
+.formulaire{
+  margin-left: 1%;
+  margin-top: 10%;
+}
+.photo-profil {
+  margin-left: 24%;
+  margin-top: -8%;
+}
+/*  fin formulaire*/
+
+
+
+
+
+label {
+  /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+  display: inline-block;
+  width: 10px;
+  text-align: right;
+  padding-top: 5PX;
+}
+input, textarea {
+  /* Afin de s'assurer que tous les champs textuels utilisent la même police
+  Par défaut, textarea utilise une police à espacement constant */
+  font: 1em sans-serif;
+
+  /* Pour donner la même dimension à tous les champs textuels */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* Pour harmoniser l'apparence des bordures des champs textuels */
+  border: 1px solid #2cb3b4;
+  border-radius: 10px;
+}
+input:focus, textarea:focus {
+  /* Afin de rehausser les éléments actifs */
+  border-color: #000;
+}
+textarea {
+  /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+  vertical-align: top;
+  /* Pour donner assez d'espace pour entrer du texte */
+  height: 5em;
+  /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+  Cela ne marche pas avec tous les navigateurs  */
+  resize: vertical;
+}
+
+
+
+
+.flecheaction {
+  height: auto;
+  float: left;
+  margin-bottom: 1.65em;
+  margin-left: 3%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.article_big_img {
+  width: 100px;
+  height: 60px;
+  overflow: hidden;
+  padding: 2px;
+}
+
+.article_big_img > img {
+  width: 100px;
+  height: 60px;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+
+
+/*pied de page*/
+.container-fluid{
+  margin-top: 5%;
+}
+.fondbleu {
+  background-color:#2cb3b4;
+  border-radius: 12px;
+}
+.texte {
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,76 @@
+body{
+  background-color:#f0edd9;
+}
+/* HAUT DE PAGE RESPONSSIVE*/
+.col-lg-4 {
+  margin-top: 5%;
+}
+.flechebas {
+  margin-top: 7%;
+}
+.border {
+  margin: 0;
+  padding-top: 1%;
+}
+.banane {
+  padding-top: 9%;
+}
+.grostitre {
+  margin-top: 10%;
+  margin-left: 29%;
+}
+/* FIN HAUT DE PAGE RESPONSSIVE*/
+p{
+  margin-top: 1%;
+  text-align: center;
+  color: gray;
+}
+.image1{
+  margin-top: 10%;
+}
+/* carousee*/
+#carousel-example-generic{
+  margin-top: 60px;
+  height: 50px;
+  margin-top: 10%;
+}
+.item img{
+  width: 100%;
+}
+/* fin carouselle*/
+
+.image3{
+  margin-top: 9%;
+}
+.illu img {
+  height: 300px;
+  width: auto;
+}
+.design {
+  margin-top: 30px;
+}
+.design img {
+  height: 300px;
+  width: auto;
+}
+.video {
+  margin-top: 300px;
+}
+.imagerobe {
+  margin-top: 10%;
+}
+.imagetenue{
+  margin-top: 1%;
+}
+.col-lg-3 {
+  text-align: center;
+  color: gray;
+  margin-top: 10%;
+}
+.video1{
+  margin-top: 10%;
+}
+.video2{  margin-top: 10%;
+}
+.video3{  margin-top: 10%;
+}

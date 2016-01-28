@@ -1,0 +1,31 @@
+body{
+  background-color:#f0edd9;
+}
+/*HAUT DE PAGE RESPONSSIVE*/
+.border {
+  margin: 0;
+  padding-top: 10%;
+}
+.border1 {
+  text-align: center;
+}
+.banane {
+  padding-top: 10%;
+}
+/* FIN HAUT DE PAGE RESPONSSIVE*/
+
+a{
+  text-decoration: none;
+  color:  #F4F3C4;
+  font-family: 'helvetica';
+  font-weight: 500;
+  font-size: 20px;
+}
+a:hover {
+  text-shadow: 2px 2px 5px;
+}
+.rectangle-navigation {
+  height: 100px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
